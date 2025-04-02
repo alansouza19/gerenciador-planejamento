@@ -1,24 +1,31 @@
 
 import './App.css';
 import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa'
 
-const name = 'Thayane';
-const newName = name.toLocaleUpperCase();
+
+/* const name = 'Thayane';
+const newName = name.toLocaleUpperCase(); */
 
 
-function sum(a, b){
+/* function sum(a, b){
   return a + b;
-}
+} */
+
+  const nome = 'João'
 
 function App() {
   return (
     <div className="App">
-      <h1>Alterando JSX</h1>
-      <p>Olá, {name}</p>
-      <p>Olá, {newName}</p>
-      <p>Soma: {2 + 2}</p>
-      <p>Função Soma: {sum(3, 4)}</p>
-      <HelloWorld />      
+      <HelloWorld />   
+      <SayMyName nome="Alan"/>
+      <SayMyName nome={nome}/>  
+      <Pessoa nome="Souza"
+        idade={28}
+        profissao="Developer" 
+        foto="https://via.placeholder.com/150"/> 
+      
     </div>
   );
 }
