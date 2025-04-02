@@ -3,7 +3,7 @@ import Frase from "./Frase";
 function HelloWorld(){
     return(
         <div>
-            <h1>My first component</h1>
+            
             <Frase/>
         </div>
         
