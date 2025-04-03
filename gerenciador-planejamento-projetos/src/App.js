@@ -3,7 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
-
+import List from './components/List';
 
 /* const name = 'Thayane';
 const newName = name.toLocaleUpperCase(); */
@@ -25,7 +25,7 @@ function App() {
         idade={28}
         profissao="Developer" 
         foto="https://via.placeholder.com/150"/> 
-      
+      <List/>
     </div>
   );
 }
