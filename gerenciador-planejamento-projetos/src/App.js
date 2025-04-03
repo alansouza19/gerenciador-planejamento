@@ -24,7 +24,7 @@ function App() {
       <Pessoa nome="Souza"
         idade={28}
         profissao="Developer" 
-        foto="https://via.placeholder.com/150"/> 
+        foto="https://github.com/alansouza19/angular-cadastro-veiculos/blob/master/src/assets/.gitkeep"/> 
       <List/>
     </div>
   );
