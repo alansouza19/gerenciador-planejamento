@@ -1,9 +1,7 @@
 
 import './App.css';
-import HelloWorld from './components/HelloWorld'
-import SayMyName from './components/SayMyName'
-import Pessoa from './components/Pessoa'
-
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 /* const name = 'Thayane';
 const newName = name.toLocaleUpperCase(); */
@@ -13,19 +11,23 @@ const newName = name.toLocaleUpperCase(); */
   return a + b;
 } */
 
-  const nome = 'João'
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld />   
+    {/*   <HelloWorld />   
       <SayMyName nome="Alan"/>
       <SayMyName nome={nome}/>  
       <Pessoa nome="Souza"
         idade={28}
         profissao="Developer" 
-        foto="https://via.placeholder.com/150"/> 
-      
+        foto="https://github.com/alansouza19/angular-cadastro-veiculos/blob/master/src/assets/.gitkeep"/> 
+      <List/> */}
+
+      <h1>Testando eventos</h1>
+      <Evento />
+
+      <Form/>
     </div>
   );
 }
