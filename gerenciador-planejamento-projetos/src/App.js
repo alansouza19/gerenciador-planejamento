@@ -1,7 +1,7 @@
 
 import './App.css';
-import Evento from './components/Evento';
-import Form from './components/Form';
+import Condicional from './components/Condicional'
+
 
 /* const name = 'Thayane';
 const newName = name.toLocaleUpperCase(); */
@@ -24,10 +24,8 @@ function App() {
         foto="https://github.com/alansouza19/angular-cadastro-veiculos/blob/master/src/assets/.gitkeep"/> 
       <List/> */}
 
-      <h1>Testando eventos</h1>
-      <Evento />
-
-      <Form/>
+      <h1>Renderização Condicional</h1>
+      <Condicional/>
     </div>
   );
 }
